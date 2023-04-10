@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-// const { TRArtifacts } = require('/home/xxx/reporter'); //TODO: path To local reporter
+// const { TRArtifacts } = require('/home/xxx/reporter'); //path to local report for testing
 
 describe("Array", function() {
   let arr;
@@ -15,6 +15,7 @@ describe("Array", function() {
     // global.testomatioArtifacts.push({ name: 'Screenshot-FAIL-1', path: `${process.cwd()}/spec/scrren-test-1.png` });
 
     //new version
+    // console.log("test", this.currentTest.title)// we can get current test title in the parallel mode
     // await TRArtifacts.artifact({ name: 'Screenshot-FAIL-1', path: `${process.cwd()}/spec/scrren-test-1.png` });
   });
 
@@ -31,7 +32,7 @@ describe("Array", function() {
   // // Test Case 3
   it("should return the length of the array after adding an element", function() {
     arr.push(4);
-    expect(arr.length).to.equal(3);
+    expect(arr.length).to.equal(4);
   });
 });
 
