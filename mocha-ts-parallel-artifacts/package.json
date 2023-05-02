@@ -1,0 +1,28 @@
+{
+  "name": "mocha-ts-parallel-artifacts",
+  "version": "1.0.0",
+  "description": "Testomatio: sample project using mocha & ts plus artifacts stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc"
+  },
+  "keywords": [
+    "mocha",
+    "typescript",
+    "e2e",
+    "test automation"
+  ],
+  "author": "Vitalii Mykhailiuk (vmykhailiuk.chanel@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "@testomatio/reporter": "^0.7.6",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "dotenv": "16.0.3",
+    "mocha": "^10.2.0",
+    "ts-node": "10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
