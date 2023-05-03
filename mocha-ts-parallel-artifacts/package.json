@@ -16,7 +16,7 @@
   "author": "Vitalii Mykhailiuk (vmykhailiuk.chanel@gmail.com)",
   "license": "ISC",
   "dependencies": {
-    "@testomatio/reporter": "^0.7.6",
+    "@testomatio/reporter": "^0.8.0-beta.31",
     "@types/chai": "^4.3.5",
     "@types/mocha": "^10.0.1",
     "chai": "^4.3.7",

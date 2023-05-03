@@ -1,5 +1,5 @@
 # 📊 Mocha + TypeScript + ARtifacts in parallel mode
-This repo contains simple template for testing project based on the stack = Mocha + TypeScript + Testomat.io plugins(in parallel mode).
+This repo contains simple template for testing project based on the stack = Mocha + TypeScript + Testomat.io artefact case (in parallel mode).
 
 # Installation
 This is a playground for your first steps in testing, so instead of installing it from NPM it is recommended to clone it from repo instead.
@@ -48,14 +48,10 @@ TESTOMATIO={apiKey} npx check-tests@latest mocha "**/*{.,_}{test,spec}.ts" --typ
 ### SET key variable
 **(if you don't want to use the TESTOMATIO API key when running testomatIO, then you can store the <API TestomatIO> token in the ```.env``` file (see env.example example))**
 
-3. Run tests and generate reports(Testomat.io):
+3. Run tests with **artifacts** in **parallel** mode and generate reports(Testomat.io):
 
 ```
-npx mocha
-```
-OR
-```
-npm test
+TESTOMATIO={apiKey} npx start-test-run -c 'npx mocha' --env-file .env
 ```
 
 
