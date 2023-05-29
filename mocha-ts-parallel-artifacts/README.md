@@ -1,4 +1,4 @@
-# 📊 Mocha + TypeScript + ARtifacts in parallel mode
+# 📊 Mocha + TypeScript + Artifacts in parallel mode (a new artifacts implementation mode)
 This repo contains simple template for testing project based on the stack = Mocha + TypeScript + Testomat.io artefact case (in parallel mode).
 
 # Installation
